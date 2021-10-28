@@ -29,22 +29,22 @@ void ControlLED_BusIO ()
 {
     switch(laibouton)
     {
-        case 0 ... 3:
+        case 12 ... 15:
             lailaid = 0b001;
             break;
-        case 4 ... 5:
+        case 10 ... 11:
             lailaid = 0b010;
             break;
-        case 6 ... 7:
+        case 8 ... 9:
             lailaid = 0b011;
             break;
-        case 8 ... 11:
+        case 4 ... 7:
             lailaid = 0b110;
             break;
-        case 12 ... 14:
+        case 1 ... 3:
             lailaid = 0b100;
             break;
-        case 15:
+        case 0:
             lailaid = 0b111;
             break;
     }
